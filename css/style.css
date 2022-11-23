@@ -1,0 +1,25 @@
+.row {
+    height: 70px;
+}
+.row > [class^='col'] {
+    background-color: #006CFA;
+    height: 100%;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+
+}
+
+
+[class^='col'] > [class^='card'] {
+    background-color: #00E165 ;
+    border: 1px solid #006CFA;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.pdn10 {
+    padding: 10px;
+}

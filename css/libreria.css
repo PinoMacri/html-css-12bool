@@ -1,0 +1,160 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*COLONNA*/
+.row > [class^='col'] {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+.row > .col {
+    flex-grow: 1;
+}
+/*CARD*/
+.col > [class^='card'] {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+.col > .card {
+    flex-grow: 1;
+}
+/*GRIGLIA*/
+.row > .col-12-12 {
+    width: 100%;
+    max-width: 100%;
+}
+.row > .col-11-12 {
+    width: calc(100% / 12 * 11);
+    max-width: calc(100% / 12 * 11);
+}
+.row > .col-10-12 {
+    width: calc(100% / 12 * 10);
+    max-width: calc(100% / 12 * 10);
+}
+.row > .col-9-12 {
+    width: calc(100% / 12 * 9);
+    max-width: calc(100% / 12 * 9);
+}
+.row > .col-8-12 {
+    width: calc(100% / 12 * 8);
+    max-width: calc(100% / 12 * 8);
+}
+.row > .col-7-12 {
+    width: calc(100% / 12 * 7);
+    max-width: calc(100% / 12 * 7);
+}
+.row > .col-6-12 {
+    width: calc(100% / 12 * 6);
+    max-width: calc(100% / 12 * 6);
+}
+.row > .col-5-12 {
+    width: calc(100% / 12 * 5);
+    max-width: calc(100% / 12 * 5);
+}
+.row > .col-4-12 {
+    width: calc(100% / 12 * 4);
+    max-width: calc(100% / 12 * 4);
+}
+.row > .col-3-12 {
+    width: calc(100% / 12 * 3);
+    max-width: calc(100% / 12 * 3);
+}
+.row > .col-2-12 {
+    width: calc(100% / 12 * 2);
+    max-width: calc(100% / 12 * 2);
+}
+.row > .col-1-12 {
+    width: calc(100% / 12 * 1);
+    max-width: calc(100% / 12 * 1);
+}
+/**************************************************/
+[class^='col'] > .card-12-12 {
+    width: 100%;
+    max-width: 100%;
+}
+[class^='col'] > .card-11-12 {
+    width: calc(100% / 12 * 11);
+    max-width: calc(100% / 12 * 11);
+}
+[class^='col'] > .card-10-12 {
+    width: calc(100% / 12 * 10);
+    max-width: calc(100% / 12 * 10);
+}
+[class^='col'] > .card-9-12 {
+    width: calc(100% / 12 * 9);
+    max-width: calc(100% / 12 * 9);
+}
+[class^='col'] > .card-8-12 {
+    width: calc(100% / 12 * 8);
+    max-width: calc(100% / 12 * 8);
+}
+.col > .card-7-12 {
+    width: calc(100% / 12 * 7);
+    max-width: calc(100% / 12 * 7);
+}
+[class^='col'] > .card-6-12 {
+    width: calc(100% / 12 * 6);
+    max-width: calc(100% / 12 * 6);
+}
+[class^='col'] > .card-5-12 {
+    width: calc(100% / 12 * 5);
+    max-width: calc(100% / 12 * 5);
+}
+[class^='col'] > .card-4-12 {
+    width: calc(100% / 12 * 4);
+    max-width: calc(100% / 12 * 4);
+}
+[class^='col'] > .card-3-12 {
+    width: calc(100% / 12 * 3);
+    max-width: calc(100% / 12 * 3);
+}
+[class^='col'] > .card-2-12 {
+    width: calc(100% / 12 * 2);
+    max-width: calc(100% / 12 * 2);
+}
+[class^='col'] > .card-1-12 {
+    width: calc(100% / 12 * 1);
+    max-width: calc(100% / 12 * 1);
+}
+/*OFFSET*/
+.offSet-11-12 {
+    margin-left: calc(100% / 12 * 11) ;
+}
+.offSet-10-12 {
+    margin-left: calc(100% / 12 * 10) ;
+}
+.offSet-9-12 {
+    margin-left: calc(100% / 12 * 9) ;
+}
+.offSet-8-12 {
+    margin-left: calc(100% / 12 * 8) ;
+}
+.offSet-7-12 {
+    margin-left: calc(100% / 12 * 7) ;
+}
+.offSet-6-12 {
+    margin-left: calc(100% / 12 * 6) ;
+}
+.offSet-5-12 {
+    margin-left: calc(100% / 12 * 5) ;
+}
+.offSet-4-12 {
+    margin-left: calc(100% / 12 * 4) ;
+}
+.offSet-3-12 {
+    margin-left: calc(100% / 12 * 3) ;
+}
+.offSet-2-12 {
+    margin-left: calc(100% / 12 * 2) ;
+}
+.offSet-1-12 {
+    margin-left: calc(100% / 12 * 1) ;
+}
+/*UTILITIES*/
+.flex {
+    display: flex;
+}
